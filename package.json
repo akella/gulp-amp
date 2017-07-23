@@ -1,0 +1,44 @@
+{
+  "name": "ampboilerplate",
+  "version": "0.0.1",
+  "description": "AMP boilerplate",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akella/gulp-amp.git"
+  },
+  "keywords": [
+    "gulp",
+    "amp"
+  ],
+  "config": {
+    "src": {
+      "sass": "src/sass"
+    },
+    "build": {
+      "css": "build/css"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "author": "Yuri Artiukh <akella.a@gmail.com> (http://riverco.de)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akella/gulp-amp/issues"
+  },
+  "homepage": "https://github.com/akella/gulp-amp#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.0.0"
+  }
+}

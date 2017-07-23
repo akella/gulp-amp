@@ -1,0 +1,187 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample document</title>
+    <link rel="canonical" href="./regular-html-version.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom>
+      h1 {color: red}
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "thumbnail1.jpg"
+      ],
+      "datePublished": "2015-02-05T08:00:00+08:00"
+    }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+
+
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <!-- begin sidebar  -->
+    <amp-sidebar id="sidebar"
+      layout="nodisplay"
+      side="left"
+      class="sidebar">
+    
+      <ul>
+        <li><a class="is-active" href="#">TV Series</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Kids Series</a></li>
+        <li><a href="#">Latino</a></li>
+        <li><a href="#">Exclusive Series</a></li>
+        <li><a href="#">Original Series</a></li>
+        <li><a href="3">Video Games</a></li>
+        <li><a href="#">Recommendations</a></li>
+      </ul>
+    
+    </amp-sidebar>
+    <!-- end sidebar -->
+
+    <!-- begin header  -->
+    <header class="header">
+      <div class="header__burger">
+        <button on="tap:sidebar.toggle">
+          <svg 
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           width="35px" height="30px"  viewBox="0 0 35 30">
+          <defs>
+          <filter id="Filter_0" x="0px" y="0px" width="35px" height="30px"  >
+              <feOffset in="SourceAlpha" dx="0" dy="2" />
+              <feGaussianBlur result="blurOut" stdDeviation="1.414" />
+              <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+              <feComposite operator="atop" in="floodOut" in2="blurOut" />
+              <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+              <feMerge>
+              <feMergeNode/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+
+          </defs>
+          <g filter="url(#Filter_0)">
+          <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+           d="M30.257,16.000 L3.742,16.000 C2.227,16.000 1.000,14.658 1.000,13.003 C1.000,11.347 2.227,10.006 3.742,10.006 L30.257,10.006 C31.772,10.006 33.000,11.347 33.000,13.003 C33.000,14.658 31.772,16.000 30.257,16.000 ZM30.257,6.000 L3.742,6.000 C2.227,6.000 1.000,4.658 1.000,3.003 C1.000,1.347 2.227,0.006 3.742,0.006 L30.257,0.006 C31.772,0.006 33.000,1.347 33.000,3.003 C33.000,4.658 31.772,6.000 30.257,6.000 ZM3.742,20.006 L30.257,20.006 C31.772,20.006 33.000,21.348 33.000,23.003 C33.000,24.658 31.772,26.000 30.257,26.000 L3.742,26.000 C2.227,26.000 1.000,24.658 1.000,23.003 C1.000,21.348 2.227,20.006 3.742,20.006 Z"/>
+          </g>
+          </svg>
+        </button>
+      </div>
+      <!-- begin header__search  -->
+      <div class="header__search">
+        <button>
+          <svg 
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           width="35px" height="36px" viewBox="0 0 35 36">
+          <defs>
+          <filter id="Filter_0" x="0px" y="0px" width="35px" height="36px"  >
+              <feOffset in="SourceAlpha" dx="0" dy="2" />
+              <feGaussianBlur result="blurOut" stdDeviation="1.414" />
+              <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+              <feComposite operator="atop" in="floodOut" in2="blurOut" />
+              <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+              <feMerge>
+              <feMergeNode/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+
+          </defs>
+          <g filter="url(#Filter_0)">
+          <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+           d="M31.606,30.606 C30.435,31.778 28.535,31.778 27.364,30.606 L20.813,24.056 C18.830,25.281 16.501,26.000 14.000,26.000 C6.820,26.000 0.999,20.179 0.999,13.000 C0.999,5.820 6.820,-0.000 14.000,-0.000 C21.179,-0.000 26.999,5.820 26.999,13.000 C26.999,15.502 26.280,17.830 25.055,19.813 L31.606,26.364 C32.778,27.535 32.778,29.435 31.606,30.606 ZM14.000,5.007 C9.585,5.007 6.007,8.585 6.007,13.000 C6.007,17.414 9.585,20.992 14.000,20.992 C18.414,20.992 21.992,17.414 21.992,13.000 C21.992,8.585 18.414,5.007 14.000,5.007 Z"/>
+          </g>
+          </svg>
+        </button>
+      </div>
+      <!-- end header__search -->
+
+      <!-- begin header__title  -->
+      <div class="header__title">
+        TV Series
+      </div>
+      <!-- end header__title -->
+    </header>
+    <!-- end header -->
+
+    <!-- begin nav  -->
+    <nav class="nav">
+      <a href="#" class="is-active">POPULAR</a>
+      <a href="#">new Series</a>
+      <a href="#">genres</a>
+      <a href="#">network</a>
+    </nav>
+    <!-- end nav -->
+
+    <!-- begin content  -->
+    <div class="content">
+      <!-- begin img  -->
+      <div class="img img_top">
+        <amp-img src="img/image.jpg" layout="responsive" alt="Welcome" height="533" width="830"></amp-img>
+      </div>
+      <!-- end img -->
+
+      <!-- begin imglist  -->
+      <div class="imglist">
+<!--         <amp-list width="auto"
+          height="200"
+          layout="fixed-height"
+          src="http://localhost:3000/js/data.json">
+          <template type="amp-mustache">
+            <a href="#" class="img"><amp-img layout="responsive" width="670"  height="377" src="{{url}}" alt="{{title}}"></a>
+          </template>
+          <div overflow
+              class="list-overflow">
+              See more
+            </div>
+        </amp-list> -->
+
+        <amp-list width="auto"
+          height="100"
+          layout="fixed-height"
+          src="/js/data.json">
+          <template type="amp-mustache">
+            <div><amp-img src="{{url}}" layout="responsive" alt="{{title}}" height="533" width="830"></amp-img></div>
+          </template>
+          <div overflow
+              role="button"
+              aria-label="Show more"
+              class="list-overflow ampstart-btn caps">
+              Show more
+            </div>
+        </amp-list>
+
+
+        <!-- <div class="img">
+          <amp-img src="img/image.jpg" layout="responsive" alt="Welcome" height="533" width="830"></amp-img>
+        </div>
+        <div class="img">
+          <amp-img src="img/image.jpg" layout="responsive" alt="Welcome" height="533" width="830"></amp-img>
+        </div>
+        <div class="img">
+          <amp-img src="img/image.jpg" layout="responsive" alt="Welcome" height="533" width="830"></amp-img>
+        </div>
+        <div class="img">
+          <amp-img src="img/image.jpg" layout="responsive" alt="Welcome" height="533" width="830"></amp-img>
+        </div> -->
+      </div>
+      <!-- end imglist -->
+    </div>
+    <!-- end content -->
+  </body>
+</html>
